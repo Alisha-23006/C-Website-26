@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ PROGRAMS - Alisha Khatun </title>
+    <style>
+        * 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5d3;
+    color: #05524c;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg,  #05524c,  #05524c);
+    color:  #f1f5d3;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    margin-bottom: 1.5rem;
+}
+
+/* Student Info Card */
+.student-info {
+    background:  #f1f5d3;
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.student-info h1 {
+    margin: 0.6rem 0;
+    font-size: 1.9rem;
+    color: #05524c ;
+}
+
+.student-info h1:first-child {
+    color: #05524c;
+    font-size: 2.3rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+/* Topic Sections */
+.topic {
+    background:  #f1f5d3;
+    border-radius: 12px;
+    margin-bottom: 2.2rem;
+    padding: 1.8rem 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-left: 5px solid  #05524c;
+}
+
+.topic h2 {
+    color:  #05524c;
+    font-size: 1.65rem;
+    margin-bottom: 1.3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid #05524c ;
+}
+
+/* List styling */
+ol {
+    list-style: none;
+}
+
+li {
+    position: relative;
+    padding-left: 2.8rem;
+    margin: 1rem 0;
+    font-size: 1.05rem;
+}
+
+li::before {
+    position: absolute;
+    left: 0;
+    color:  #05524c;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Links */
+a {
+    color:  #05524c;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color:  #05524c;
+    text-decoration: underline;
+    background-color:  #05524c(66, 153, 225, 0.08);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        font-size: 2.2rem;
+        padding: 2rem 1rem;
+    }
+
+    .student-info {
+        margin: 0 1rem 2rem;
+        padding: 1.5rem;
+    }
+
+    .student-info h1 {
+        font-size: 1.7rem;
+    }
+
+    .student-info h1:first-child {
+        font-size: 2rem;
+    }
+
+    .topic {
+        padding: 1.4rem 1.2rem;
+    }
+
+    .topic h2 {
+        font-size: 1.45rem;
+    }
+
+    li {
+        font-size: 1rem;
+        padding-left: 2.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.9rem;
+    }
+
+    .topic h2 {
+        font-size: 1.35rem;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <header>C++ PROGRAMMING</header>
+
+    <div class="student-info">
+        <h1>Alisha Khatun</h1>
+        <h1>BCA-1 'A'</h1>
+        <h1>4351/25</h1>
+        <h1>C++ PROGRAMS</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="topic">
+            <h2>BASIC PROGRAMMING CONSTRUCTS</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1j7-mLvQuQj-00Fs_ufS7SfcuWQWfcDP1/view?usp=drive_link" target="_blank">1. Write a C++ program to print ‘Hello World!’ on screen</a></li>
+                <li><a href="https://drive.google.com/file/d/1Rb36qnCkoDjts8rnNNqcs4jpM7zFXbuT/view?usp=drive_link" target="_blank">2. Write a C++ program to print the sum of two numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1gdz07Q9f4cDo9T7d_HPrPjWjfgWdjjCc/view?usp=drive_link" target="_blank">3. Write a C++ program that takes two numbers and display the product of two numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1HOtlBiGq4IXurtY2iHXG2EoeydhPKAFO/view?usp=drive_link" target="_blank">4. Write a C++ program to print the sum, multiply, subtract, divide and remainder of two numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/16EgYNyge-_pqrrt0rwOl-W5KCH0U9JyM/view?usp=drive_link" target="_blank">5. Write a C++ program that takes five numbers as input to calculate and print the average of the numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ca8zTqOnuOoXDMVmnsWl_XUiAKXQSXvj/view?usp=drive_link" target="_blank">6. Write a C++ program to swap two variables</a></li>
+                <li><a href="https://drive.google.com/file/d/1KmwLY7Ni76ZQK6wQJ10t-67e95De4PbB/view?usp=drive_link" target="_blank">7. Write a C++ program to convert a decimal number to binary numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1CZsz2PiAAQmUiIXd9n7FdroYtvUBB0Tn/view?usp=drive_link" target="_blank">8. Write a C++ program to convert a binary number to decimal number</a></li>
+                <li><a href="https://drive.google.com/file/d/1zrjMguFSUE5HLc0ZBNsotcWk7Io2-1o5/view?usp=drive_link" target="_blank">9. Write a C++ program to check whether C++ is installed on your computer or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1ncXUyuH50H43zRv-n_cRUWvW-Fagh4qX/view?usp=drive_link" target="_blank">10. Write a C++ program and compute the sum of the digits of an integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1YxFqss5ly8uCJH2VmaAVLLPAPFZzdyUX/view?usp=drive_link" target="_blank">11. Write a C++ program to compare two numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1PXfRr-0D0Ih8MOCutWjHUYFi3SlQPLp5/view?usp=drive_link" target="_blank">12. Write a C++ program to count the letters, spaces, numbers and other characters of an input string</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ru1LPIvRulw-NTs2urLrQIcJMmNGDVC2/view?usp=drive_link" target="_blank">13. Write a C++ program to print the ascii value of a given character</a></li>
+                <li><a href="https://drive.google.com/file/d/1c16f67_mRYOXZnKA8BAHI28vknuRRJaT/view?usp=drive_link" target="_blank">14. Write a C++ program that accepts an integer (n) and computes the value of n+nn+nnn</a></li>
+                <li><a href="https://drive.google.com/file/d/1glPsa_E5VZLYARBnrTnxs544k-ZB0Gqu/view?usp=drive_link" target="_blank">15. Write a C++ program to display the system time</a></li>
+                <li><a href="https://drive.google.com/file/d/1F082A-2caEqh9XWom-YZFiBleaPHtCzq/view?usp=drive_link" target="_blank">16. Write a C++ program to print the odd numbers from 1 to 20</a></li>
+                <li><a href="https://drive.google.com/file/d/1VLIzYf67SC1XPhU8iDG24D8OmkMR13Sh/view?usp=drive_link" target="_blank">17. Write a C++ program to print the even numbers from 1 to 20</a></li>
+                <li><a href="https://drive.google.com/file/d/1lFP_L25eyp4t9OkidOo3rjt3DPh_8neq/view?usp=drive_link" target="_blank">18. Write a C++ program to convert a string to an integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1GhqjqFMmYBodSQGxVnqqY5bEg0deB5e8/view?usp=drive_link" target="_blank">19. Write a C++ program to convert seconds to hour, minute and seconds</a></li>
+                <li><a href="https://drive.google.com/file/d/1MPRh1lZWRM6KNFitu275dV8ejnuEloJ2/view?usp=drive_link" target="_blank">20. Write a C++ program to compute the sum of the first 100 prime numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1yKF0Ogi1rYjZXmwIg7ASJEYgo0tzhx5s/view?usp=drive_link" target="_blank">21. Write a C++ program to compute the square root of an given integer</a></li>
+                <li><a href="https://drive.google.com/file/d/159fy7SYkxKcNSH_wVNQ1KbpsDczBvqU-/view?usp=drive_link" target="_blank">22. Write a C++ program to check if a positive number is a palindrome or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1heCH-nvHWSvo4WJVmocFGqhZrsVmunhK/view?usp=drive_link" target="_blank">23. Write a C++ program to add two numbers without using any arithmetic operators</a></li>
+                <li><a href="https://drive.google.com/file/d/1gBzlac2Hgu0w8BNMIoW5Dp4hOCaRNof0/view?usp=drive_link" target="_blank">24. Write a C++ program to add all the digits of a given positive integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1OuI4gEJBYPGGf282mfEjm4mXz6ykMu1S/view?usp=drive_link" target="_blank">25. C++ program to find area of circle</a></li>
+                <li><a href="https://drive.google.com/file/d/1ImJ7egHB9WwzR0523QnQXjdWYnecuGq1/view?usp=drive_link" target="_blank">26. C++ Program to find area of rectangle</a></li>
+                <li><a href="https://drive.google.com/file/d/1HjsmwJoAxQdTU64NrTUrhhuFMsMsDGPy/view?usp=drive_link" target="_blank">27. C++ Program to find area of triangle</a></li>
+                <li><a href="https://drive.google.com/file/d/1k4ZvD681000iVttFAogXOTEoCsTCEIgo/view?usp=drive_link" target="_blank">28. C++ Program to find area of equilateral triangle</a></li>
+                <li><a href="https://drive.google.com/file/d/10CgBkvb_6Ougaf69FGCcs48E2vQ5g67D/view?usp=drive_link" target="_blank">29. C++ Program to find area of rhombus</a></li>
+                <li><a href="https://drive.google.com/file/d/1p-82COdb_X6rX2-ijTTxvtZpBfRdnlPp/view?usp=drive_link" target="_blank">30. C++ Program to find area of parallelogram</a></li>
+                <li><a href="https://drive.google.com/file/d/1nnMDdZqm4HRhcdmZDVltZFGC67X_XbEw/view?usp=drive_link" target="_blank">31. C++ Program to find area of Prism</a></li>
+                <li><a href="https://drive.google.com/file/d/1fTeHrj3YCDFpDCo3u-XQMQWFH2_pJS4J/view?usp=drive_link" target="_blank">32. C++ Program to find volume of sphere</a></li>
+                <li><a href="https://drive.google.com/file/d/1FeIJI9CEuWXpNpmc7WRvTsI50nEth7EY/view?usp=drive_link" target="_blank">33. C++ Program to find volume of cylinder</a></li>
+                <li><a href="https://drive.google.com/file/d/1L9oJ_I0PjeDq_B6EkS51x9gUSI8-Ed85/view?usp=drive_link" target="_blank">34. C++ Program to find volume of cuboid</a></li>
+                <li><a href="https://drive.google.com/file/d/1Tmc5R9EFgIaQoWXerb7R3mZ-AUtM7SFg/view?usp=drive_link" target="_blank">35. C++ Program to find volume of cone</a></li>
+                <li><a href="https://drive.google.com/file/d/16VMMNckMd-xGnzLKfuLvvQOx7D8rXBsn/view?usp=drive_link" target="_blank">36. C++ program to find surface area of cuboid</a></li>
+                <li><a href="https://drive.google.com/file/d/1enFInmvHiIyrmf5b8QEBvdLajrGnA6JK/view?usp=drive_link" target="_blank">37. C++ program to find surface area of cylinder</a></li>
+                <li><a href="https://drive.google.com/file/d/1y5tTirBXiOxivPKddk28aA_elMonopfp/view?usp=drive_link" target="_blank">38. C++ program to find surface area of cube</a></li>
+                <li><a href="https://drive.google.com/file/d/1qgcRDzdplvPQufRBioMyPWxNvo7Eu343/view?usp=drive_link" target="_blank">39. C++ program to calculate average marks</a></li>
+                <li><a href="https://drive.google.com/file/d/1Fr1xoOIBbU2PbIHxGqAabDGURunLHYjA/view?usp=drive_link" target="_blank">40. C++ program to check vowel or consonant</a></li>
+                <li><a href="https://drive.google.com/file/d/13GhNXxlMElW1u3y9X-L6pFsvwDQoYa6J/view?usp=drive_link" target="_blank">41. C++ program to sum of N numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1duiVLuPU7RXVLUwQKLD3XrzkyNk10GyR/view?usp=drive_link" target="_blank">42. C++ program to find factorial of any number</a></li>
+                <li><a href="https://drive.google.com/file/d/1dD3vjoTROACHEpOxXNJuyZohDsRXneSb/view?usp=drive_link" target="_blank">43. C++ Program to calculate electricity bill</a></li>
+                <li><a href="https://drive.google.com/file/d/1_DaGHBvLVbO19U7ZzhAQyn9MCyytyf1u/view?usp=drive_link" target="_blank">44. C++ Program To Calculate CGPA Percentage</a></li>
+                <li><a href="https://drive.google.com/file/d/1W9833XX0oOQUoXYVSqqY1Gt093jRsG4G/view?usp=drive_link" target="_blank">45. C++ Program to calculate compound interest</a></li>
+                <li><a href="https://drive.google.com/file/d/1S19wGK9JJdA9knR6g53CYxH83e9a7X2P/view?usp=drive_link" target="_blank">46. C++ Program To Calculate Batting Average</a></li>
+                <li><a href="https://drive.google.com/file/d/1HRIPlM6nf8m40lq0K7QeY9We2bt_B-Ny/view?usp=drive_link" target="_blank">47. C++ Program to Calculate Commission Percentage</a></li>
+                <li><a href="https://drive.google.com/file/d/1bFVxGqIVRmpaWCO0FqRpoMpsbaF7iBzW/view?usp=drive_link" target="_blank">48. C++ Program To Find Distance Between Two Points</a></li>
+                <li><a href="https://drive.google.com/file/d/1vlO60oNO_M74oEiWsSQ7wmxHcy1bdwhO/view?usp=drive_link" target="_blank">49. C++ Program To Calculate Power Of Number</a></li>
+                <li><a href="https://drive.google.com/file/d/1t2JCxk2M2dR7R7vZH3801g7DwE-hYNGN/view?usp=drive_link" target="_blank">50. Write a C++ program to take three numbers from the user and print the greatest number</a></li>
+                <li><a href="https://drive.google.com/file/d/1uvGFZ_BMCW7aHFZeUsp4Ytk4z5iqim9d/view?usp=drive_link" target="_blank">51. Write a C++ program to find the number of days in a month</a></li>
+                <li><a href="https://drive.google.com/file/d/1hxHrrzo9zwi9-PA6nPS7Kzx0W9SfEm4e/view?usp=drive_link" target="_blank">52. Write a C++ program to test a number is positive or negative</a></li>
+                <li><a href="https://drive.google.com/file/d/1lz-yGDmFSUT7SVMCrJBGY9zYglYxWbvm/view?usp=drive_link" target="_blank">53. Write a C++ Program to accept number of week’s day (1-7) and print name of the day</a></li>
+                <li><a href="https://drive.google.com/file/d/1d-D4dZCb3f7b6b8xMwbmaUMlGB42Pt3o/view?usp=drive_link" target="_blank">54. Write a C++ program that takes a year from user and print whether that year is a leap year or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1MP3gQldAGulg4BDSPcNWc8aI5nBmL-g1/view?usp=drive_link" target="_blank">55. Write a C++ program to input 5 numbers from keyboard and find their sum and average</a></li>
+                <li><a href="https://drive.google.com/file/d/1a7VNff5PDKheqAy633JbIWG8Y2k1XE_d/view?usp=drive_link" target="_blank">56. Write a program in C++ to display the first 5 natural numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1B9anOEEZpxZWfnCyXDfGnciQbRnQg5Ws/view?usp=drive_link" target="_blank">57. Write a C++ program to check vowel or consonant</a></li>
+                <li><a href="https://drive.google.com/file/d/12UTyOb78lVqnDfd-0HhiFGraHDvmexVk/view?usp=drive_link" target="_blank">58. Write a C++ program to display the cube of the number upto given an integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1PW4NTLSmG4GCD-9JueCr-sgwndWUSv4j/view?usp=drive_link" target="_blank">59. Write a C++ program to display the n terms of odd natural number and their sum</a></li>
+                <li><a href="https://drive.google.com/file/d/1x4Swzke27JhQl_Xb5_9Yoygd2cthw1oL/view?usp=drive_link" target="_blank">60. Write a C++ program to display the multiplication table of a given integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1UYybdKNMaW0MGJov-QrulO0OzRt-UOQJ/view?usp=drive_link" target="_blank">61. Write a C++ program that reads an integer and check whether it is negative, zero, or positive</a></li>
+                <li><a href="https://drive.google.com/file/d/1N8cuSgJPe-1A6QC7GrCR9Cy1aNOpnwFj/view?usp=drive_link" target="_blank">62. Write a C++ program that reads an positive integer and count the number of digits</a></li>
+                <li><a href="https://drive.google.com/file/d/1cr7s0mogpFQNq-wtUaFUBVBZ1pJY_YLG/view?usp=drive_link" target="_blank">63. Write a C++ program that accepts three numbers & checks all numbers are equal or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1q0oTLe7-n4SmpBPxljLIAjaZjs_mQeSA/view?usp=drive_link" target="_blank">64. Write a C++ program that accepts three numbers from the user and check if numbers are in "increasing” or “decreasing” order.</a></li>
+                <li><a href="https://drive.google.com/file/d/1f0Y2rajvz0tRG5pllbhH7Fbbo4iPehX4/view?usp=drive_link" target="_blank">65. Write a C++ program that determines a student’s grade (81-100 : A, 61-80 : B, 41-60 : C, 0-40 : D)</a></li>
+                <li><a href="https://drive.google.com/file/d/1fQ73azWp-4KNqdppXbheEgcmFi7ZtS_q/view?usp=drive_link" target="_blank">66. Write a C++ program to create a simple calculator (1. ADDITION, 2. SUBTRACTION, 3. MULTIPLICATION, 4. DIVISION, 5. EXPONENTIAL, 6. PERCENTAGE, 7. EXIT)</a></li>
+                <li><a href="https://drive.google.com/file/d/1-j_PGMMH7BtTAp4-oegVPqq1zskhsuLZ/view?usp=drive_link" target="_blank">67. Write a C++ program to concatenate two string</a></li>
+                <li><a href="https://drive.google.com/file/d/1BwjZ9yytmm_gyfj7-8LDMUW6emvsHYA9/view?usp=drive_link" target="_blank">68. Write a C++ program to convert all characters in a string to lowercase</a></li>
+                <li><a href="https://drive.google.com/file/d/1isYNU8z23n9u4AjAKLtwdRgmRFYqmwgL/view?usp=drive_link" target="_blank">69. Write a C++ program to convert all characters in a string to uppercase</a></li>
+                <li><a href="https://drive.google.com/file/d/1jiVFZfxvdCHP3G0R0pFp0Rvmq1htaAAA/view?usp=drive_link" target="_blank">70. Write a C++ program to trim a string (remove whitespaces)</a></li>
+                <li><a href="https://drive.google.com/file/d/114x3IV8t6OIrW5pNnU3xT2RdT2N8MjVt/view?usp=drive_link" target="_blank">71. Write a C++ program to get a substring of a given string between two specified positions</a></li>
+                <li><a href="https://drive.google.com/file/d/11ulHzSyjoLpsW_FXYXumXcJPMTb4qNrq/view?usp=drive_link" target="_blank">72. Write a C++ program to replace all the ‘d’ characters with ‘f’ characters</a></li>
+                <li><a href="https://drive.google.com/file/d/1n0fsx2hhRCwL8h3WuTXX0m8HxMs1WJ6N/view?usp=drive_link" target="_blank">73. Write a C++ program to get the length of a given string</a></li>
+                <li><a href="https://drive.google.com/file/d/1uuQ-HvSaXT2Cwm_H0bgDMXyMc7CmE9rv/view?usp=drive_link" target="_blank">74. Write a C++ program to print current date and time in the specified format</a></li>
+                <li><a href="https://drive.google.com/file/d/1iW2SbTzJsdFCDYLaoEm1G8FnLpUAOv4F/view?usp=drive_link" target="_blank">75. Write a C++ program to get the character at the given index within the String</a></li>
+                <li><a href="https://drive.google.com/file/d/1AmayCY8JYgM0_adzjZXEkuaA4YOVbDtf/view?usp=drive_link" target="_blank">76. Write a C++ program to remove a particular character from a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1tcKphC3qMSujy2hjCqWhSEOfBW2iugeE/view?usp=drive_link" target="_blank">77. Write a C++ program to reverse a String</a></li>
+                <li><a href="https://drive.google.com/file/d/1BshLealJDX8hjDDOeeguvLqs1LncFOCL/view?usp=drive_link" target="_blank">78. Write a C++ program to remove html tags from a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1ZGK3waYf96xOWtfW6_0dPE-WT7nnrLun/view?usp=drive_link" target="_blank">79. Write a C++ program to count total number of lines from a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1foVIKGZvvVrv0xqjQikRv6UFcurCtoOk/view?usp=drive_link" target="_blank">80. Write a C++ Program to Accept the Marks of a Student and find Total Marks and Percentage</a></li>
+                <li><a href="https://drive.google.com/file/d/1HW3gBfmu1XAyE4ljHs9PAGa6t-7vK5eB/view?usp=drive_link" target="_blank">81. Write a C++ program to print numbers from 1 to 10 using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1VAt1wYjA2AyCmPLKIU9YyjJXCaH_RsFJ/view?usp=drive_link" target="_blank">82. Write a C++ program to calculate the sum of first 10 natural number using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1zRoznmtl07q5XCixs7yPQhLMQ-2FVQgp/view?usp=drive_link" target="_blank">83. Write a C++ program to print multiplication table of given number</a></li>
+                <li><a href="https://drive.google.com/file/d/1_oj3vfCDySRwXrMrF5JoZEEf4W10Lu1v/view?usp=drive_link" target="_blank">84. Write a C++ program to find the factorial value of any number entered through the keyboard</a></li>
+                <li><a href="https://drive.google.com/file/d/1aHhpiqgoN4hopQNXYeDThOqrA9L1hmmu/view?usp=drive_link" target="_blank">85. Write a C++ program that prompts the user to input an integer and then outputs the number with the digits reversed order</a></li>
+                <li><a href="https://drive.google.com/file/d/1gLdaR8k4Lh9Q_EKB9Rhqspj1zNK2F5Jx/view?usp=drive_link" target="_blank">86. Write a C++ program that reads a set of integers, and then prints the sum of the even and odd integers using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1qGCtYH2tNJd5aMcjWFKDm7de_wV_IXOK/view?usp=drive_link" target="_blank">87. Write a C++ program to check whether the number is a prime number or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1gTrTrzayrF8_by5Inl-DyrH-vOMmYcST/view?usp=drive_link" target="_blank">88. Write a C++ program to calculate HCF of Two given numbers using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1s95d-I8Crkk0oAdRef71icEaybKIZkwO/view?usp=drive_link" target="_blank">89. Write a C++ program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros</a></li>
+                <li><a href="https://drive.google.com/file/d/1r_2JQ0X2uaRmDPzB0kJbz7_IpiKOrzFM/view?usp=drive_link" target="_blank">90. Write a C++ program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered</a></li>
+                <li><a href="https://drive.google.com/file/d/1v9k1cQGjIVP-a0YkC6-PAdGAKj2UiqCr/view?usp=drive_link" target="_blank">91. Write a C++ program to print out all Armstrong numbers between 1 to 600 using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1eQxhSIr26Xik4x-l2vuSnfMzOFsJ50p1/view?usp=drive_link" target="_blank">92. Write a C++ program to count total number of notes in entered amount using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1-uIP8fFr2ziDddUtPJtTgN_8TKIXtrQ_/view?usp=drive_link" target="_blank">93. Write a C++ program to print Fibonacci series of n terms where n is input by user using loop</a></li>
+                <li><a href="https://drive.google.com/file/d/1J98JZlBnOYUP9mF4PmQg5P4AU7i5SVGB/view?usp=drive_link" target="_blank">94. Write a C++ program to calculate the sum of following series where n is input by user</a></li>
+                <li><a href="https://drive.google.com/file/d/12lF_AYoLCih9eN4zn0v80fudaStlANRf/view?usp=drive_link" target="_blank">95. Write a C++ method to compute the average of three numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1PbNb-Q-KJw6VFnzclvzqtyd_lFGTTSod/view?usp=drive_link" target="_blank">96. Write a C++ method to find the smallest number among three numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1sLhsyGTLRP6qJ7eDk9JVVcWuL-6hOpBE/view?usp=drive_link" target="_blank">97. Write a C++ method to check whether an year entered by the user is a leap year or not</a></li>
+                <li><a href="https://drive.google.com/file/d/15QWGeyfWfrCfvWUKKrg6QwjLbsPDyDf9/view?usp=drive_link" target="_blank">98. Write a C++ program to accept a float value of number and return a rounded float value</a></li>
+                <li><a href="https://drive.google.com/file/d/1rIHO4pCR7SuKTzDeY6YxO-yAf31nbgfI/view?usp=drive_link" target="_blank">99. Write a C++ method to compute the sum of the digits in an integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1tUqLuz10zFG1cT7i5jiprToQ0qtlB7lH/view?usp=drive_link" target="_blank">100. Write a C++ method to calculate the area of a triangle</a></li>
+                <li><a href="https://drive.google.com/file/d/18f3LqjgomqYJaikTcpmb0w4Puse1aTVD/view?usp=drive_link" target="_blank">101. Write a C++ method to find the area of a pentagon</a></li>
+                <li><a href="https://drive.google.com/file/d/17Xkxd_cp4sCBuT7HonE-c0REP8b90_4V/view?usp=drive_link" target="_blank">102. Write a C++ method to find number is even number or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1HJShqOxiiVfswser4m6cIOrJXxGbiMs-/view?usp=drive_link" target="_blank">103. Write a C++ method to check numbers is palindrome number or not</a></li>
+                <li><a href="https://drive.google.com/file/d/1VvXLmRpx1AJexgMfcCAFPkNVOs-kZJ_O/view?usp=drive_link" target="_blank">104. Write a C++ method to displays prime numbers between 1 to 20</a></li>
+                <li><a href="https://drive.google.com/file/d/1pl_3mv9gG_VGGfkTvvguVI9VTLX0JrT1/view?usp=drive_link" target="_blank">105. Write a C++ method to find GCD and LCM of Two Numbers</a></li>
+                <li><a href="https://drive.google.com/file/d/1jopfZ2sZGTLEU7lgzDd3hBqA_kfbL-Xn/view?usp=drive_link" target="_blank">106. Write a C++ method to find factorial using recursion</a></li>
+                <li><a href="https://drive.google.com/file/d/109GrCvb_EPaXZTadGFkfGnP1BlxMBzcX/view?usp=drive_link" target="_blank">107. Write a C++ program to reverse an integer number</a></li>
+                <li><a href="https://drive.google.com/file/d/1DnzNo9DKFnQ8vNAN1XCveRoU8YKjnHnJ/view?usp=drive_link" target="_blank">108. Write a C++ program to round a float number to specified decimals</a></li>
+                <li><a href="https://drive.google.com/file/d/15xDvmc--zjr1H8KMKKPTXYqgGbAEmxNY/view?usp=drive_link" target="_blank">109. Write a C++ program to test if a double number is an integer</a></li>
+                <li><a href="https://drive.google.com/file/d/1_G2cRU1MZEFKx3amsj6P9eS34pwAvOri/view?usp=drive_link" target="_blank">110. Write a C++ program to round up the result of integer division</a></li>
+                <li><a href="https://drive.google.com/file/d/1MbbglXMO9199G5agxvZQa9Jvt81NvRfI/view?usp=drive_link" target="_blank">111. Write a C++ program to convert Roman number to an integer number</a></li>
+                <li><a href="https://drive.google.com/file/d/1qXBikUCH4adckoRUSC-_asFqLwpb48_S/view?usp=drive_link" target="_blank">112. Write a C++ program to convert a float value to absolute value</a></li>
+                <li><a href="https://drive.google.com/file/d/1tLq88yVP6_9WZlqaZVmryNCGCTPwvvar/view?usp=drive_link" target="_blank">113. Create a class entering the command line arguments from the user and show all the arguments as output.</a></li>
+                </ol>
+        </div>
+
+
+        <div class="topic">
+            <h2>OBJECT ORIENTED PROGRAMMING</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1nJDx7I_fT57prKtVVHh7_0W4Zzs-U24U/view?usp=drive_link" target="_blank">1. Write a C++ program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.</a></li>
+                <li><a href="https://drive.google.com/file/d/12NV7Z-ZFQxS3c359yIrG6WUf6tAg7j8c/view?usp=drive_link" target="_blank">2. Write a C++ program to create a class called "Dog" with a name and breed attribute. Create two instances of the "Dog" class, set their attributes using the constructor and modify the attributes using the setter methods and print the updated values.</a></li>
+                <li><a href="https://drive.google.com/file/d/1iryQJgPBANbEq0-4bRlXv7TD1hrfK83O/view?usp=drive_link" target="_blank">3. Write a C++ program to create a class called "Rectangle" with width and height attributes. Calculate the area and perimeter of the rectangle.</a></li>
+                <li><a href="https://drive.google.com/file/d/1LMqQLti9u-QBxWHBIqd5LNgxRVwm6G3J/view?usp=drive_link" target="_blank">4. Write a C++ program to create a class called "Circle" with a radius attribute. You can access and modify this attribute. Calculate the area and circumference of the circle.</a></li>
+                <li><a href="https://drive.google.com/file/d/1eflDSrsX5MvlstVEXE-vDGTS6549EQO8/view?usp=drive_link" target="_blank">5. Write a C++ program to create a class called "Book" with attributes for title, author, and ISBN, and methods to add and remove books from a collection.</a></li>
+                <li><a href="https://drive.google.com/file/d/1_dfTF0L7UWUKIbFdZh9UCwB1U78xW8rY/view?usp=drive_link" target="_blank">6. Write a C++ program to create a class called "Employee" with a name, job title, and salary attributes, and methods to calculate and update salary.</a></li>
+                <li><a href="https://drive.google.com/file/d/1w0HA4lkcjhqdWREweOAcuLsADE3KSoel/view?usp=drive_link" target="_blank">7. Write a C++ program to create a class called "Bank" with a collection of accounts and methods to add and remove accounts, and to deposit and withdraw money. Also define a class called "Account" to maintain account details of a particular customer.</a></li>
+                <li><a href="https://drive.google.com/file/d/1mdnBJ3atNsT_K_wmfQKvSzpvjghypjSZ/view?usp=drive_link" target="_blank">8. Write a C++ program to create a class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.</a></li>
+                <li><a href="https://drive.google.com/file/d/1_RKvwU58lElZapD1jgrrpxGr5Qwl0BZk/view?usp=drive_link" target="_blank">9. Write a C++ program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.</a></li>
+                <li><a href="https://drive.google.com/file/d/1pbOmPi4SpScG1U2Z8sjd35IKdea5ObGE/view?usp=drive_link" target="_blank">10. Write a C++ program to create a class called "Student" with a name, grade, and courses attributes, and methods to add and remove courses.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ssvoctd62MQqMNRMiHjyMOQIhe3IAJ5y/view?usp=drive_link" target="_blank">11. Write a C++ program to create a class called "Library" with a collection of books and methods to add and remove books.</a></li>
+                <li><a href="https://drive.google.com/file/d/1T_nRHShTe0Oxr_bx815Syl6NY1dbLDE9/view?usp=drive_link" target="_blank">12. Write a C++ program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.</a></li>
+                <li><a href="https://drive.google.com/file/d/16ky_vhvnr6f5fLfi3-7pRf313OiWeCKx/view?usp=drive_link" target="_blank">13. Write a C++ program to create a class called "Inventory" with a collection of products and methods to add and remove products, and to check for low inventory.</a></li>
+                <li><a href="https://drive.google.com/file/d/1DMoco6Uef1gdrY0f5DyfcMHjC-SU_vyD/view?usp=drive_link" target="_blank">14. Write a C++ program to create a class called "School" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.</a></li>
+                <li><a href="https://drive.google.com/file/d/1bl4TyImgBkfS5WVh1O7Vl73LkCvmF7_4/view?usp=drive_link" target="_blank">15. Write a C++ program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.</a></li>
+                <li><a href="https://drive.google.com/file/d/13qsjMYQkf-2nKgkbbcnLYYEWBtDie-cZ/view?usp=drive_link" target="_blank">16. Write a C++ program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".</a></li>
+                <li><a href="https://drive.google.com/file/d/1oUk8yQklQ4NppFhdphFLEhoxd9zU3oU0/view?usp=drive_link" target="_blank">17. Write a C++ program to create a class called "Movie" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.</a></li>
+                <li><a href="https://drive.google.com/file/d/1WRUeAHkda73j6GkzqwOnQKCJBbh-fD9h/view?usp=drive_link" target="_blank">18. Write a C++ program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.</a></li>
+                <li><a href="https://drive.google.com/file/d/1I8HqOYbfMjff98e-LcJcUNU9Q3VDjGW3/view?usp=drive_link" target="_blank">19. Write a C++ program to create a class with methods to search for flights and hotels, and to book and cancel reservations.</a></li>
+                <li><a href="https://drive.google.com/file/d/1RT3eOUN5CHFdubyqEUmCtfT63r_od8Fr/view?usp=drive_link" target="_blank">20. Create a class showing an example of default constructor.</a></li>
+                <li><a href="https://drive.google.com/file/d/1JrMONuNEKZwJPvvZtTxc9plQHgsuwJ1H/view?usp=drive_link" target="_blank">21. Create a class showing an example of parameterized constructor.</a></li>
+                <li><a href="https://drive.google.com/file/d/1UXFrHwFIXdB7TfepaTC2HOEY_DKzwTjs/view?usp=drive_link" target="_blank">22. Create a class showing an example of copy constructor.</a></li>
+                <li><a href="https://drive.google.com/file/d/1UixlLIuLcrlac_EAIoi7tsr4u2OagN0G/view?usp=drive_link" target="_blank">23. Create a class entering the rollno, name and class of the student from user but rollno should be automatically generated as we enter the information of 10 students</a></li>
+                <li><a href="https://drive.google.com/file/d/1jLKpqCd1R853orOp_PRu7NzL5aGgswnJ/view?usp=drive_link" target="_blank">24. Create a class showing the area of circle and rectangle by method overloading.</a></li>
+                <li><a href="https://drive.google.com/file/d/15n0QrBkkJWtGPPZ_uzZFHbP3XStqfvDv/view?usp=drive_link" target="_blank">25. Write a C++ program to create a class called Person with private instance variables name, age, and country. Provide public getter and setter methods to access and modify these variables.</a></li>
+                <li><a href="https://drive.google.com/file/d/1cRNoVA5uR0bMKCVBnxJyXv76xIQ8I1Fe/view?usp=drive_link" target="_blank">26. Write a C++ program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.</a></li>
+                <li><a href="https://drive.google.com/file/d/1babSO6lSwClmlbnEMXCgAjgNB_REpxKE/view?usp=drive_link" target="_blank">27. Write a C++ program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.</a></li>
+                <li><a href="https://drive.google.com/file/d/1nPhmpiR_m1bufbuHB7ulfi2uMsK2jh8F/view?usp=drive_link" target="_blank">28. Write a C++ program to create a class called Employee with private instance variables employee_id, employee_name, and employee_salary. Provide public getter and setter methods to access and modify the id and name variables, but provide a getter method for the salary variable that returns a formatted string.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Gdpj_Iji033ap3WOMVu5WY3vAnVe4Ks8/view?usp=drive_link" target="_blank">29. Write a C++ program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.</a></li>
+                <li><a href="https://drive.google.com/file/d/1bv91zTCR7j5kTuvgOFPoFM2gq8nAki5s/view?usp=drive_link" target="_blank">30. Write a C++ program to create a class called Car with private instance variables company_name, model_name, year, and mileage. Provide public getter and setter methods to access and modify the company_name, model_name, and year variables. However, only provide a getter method for the mileage variable.</a></li>
+                <li><a href="https://drive.google.com/file/d/1AR46S4ldXKAg4kLKyuBxG6jd561xjhKH/view?usp=drive_link" target="_blank">31. Write a C++ program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation.</a></li>
+            </ol>
+        </div>
+
+        <div class="topic">
+            <h2>OPERATOR OVERLOADING</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1yy6TxB4Oq01rAu1PG6CfWiaXPco1JbBf/view?usp=drive_link"target="_blank">1.Define a class Complex to represent complex numbers. Overload the + operator to add two complex numbers.</a></li> 
+                <li><a href="https://drive.google.com/file/d/1jkfVih8KzGdDbhOAo5lEIG0GCtjKyW7b/view?usp=drive_link"target="_blank">2.Create a class Fraction to represent fractions. Overload the + operator to add two fractions.</a></li>
+                <li><a href="https://drive.google.com/file/d/10YpQqMcUnWS1yitk1PPGAlosA0fDU_lg/view?usp=drive_link"target="_blank">3.Define a class Matrix to represent matrices. Overload the * operator to multiply two matrices.</a></li>
+                <li><a href="https://drive.google.com/file/d/18ykaQi4YUEJsS_sA7_bTcqljviVa9jpu/view?usp=drive_link"target="_blank">4.Implement a class String to represent strings. Overload the + operator to concatenate two strings.</a></li>
+                <li><a href="https://drive.google.com/file/d/1iV8wVCIGWtsjs8P4-xgQ1IyphQapb4A9/view?usp=drive_link"target="_blank">5.Define a class Date to represent dates. Overload the < operator to compare two dates.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Hi4nWiCyXXqDbzLugqsvPJJm-q7vXBwK/view?usp=drive_link"target="_blank">6.Implement a class Money to represent money. Overload the + operator to add two amounts of money.</a></li>
+                <li><a href="https://drive.google.com/file/d/1MBysAAjY3iypvIuJqa_lPhdTU2YWjyx2/view?usp=drive_link"target="_blank">7.Create a class Rectangle to represent rectangles. Overload the == operator to check if two rectangles are equal.</a></li>
+                <li><a href="https://drive.google.com/file/d/1AY8ufdmvB_njRDih7XKBgKLaGpyBkQge/view?usp=drive_link"target="_blank">8.Define a class Time to represent time. Overload the << operator to display the time in HH:MM format.</a></li>
+            </ol>
+        </div>
+
+
+
+        <div class="topic">
+            <h2>INHERITANCE</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1dDtT5ezNLzzo-JQ1ekMzG3yNRoJd5nDp/view?usp=drive_link"target="_blank">1.Write a C++ program to create a class called Animal with a method called makeSound(). Create a derived class called Cat that overrides the makeSound() method tobark.</a></li>
+                <li><a href="https://drive.google.com/file/d/1x3d3P2EN7IgjLHg3bW5TZwRKtV2LlTcu/view?usp=drive_link"target="_blank">2.Write a C++ program to create a class called Vehicle with a method calleddrive(). Create a derived class called Car that overrides the drive() method to print "Repairinga car". </a></li>
+                <li><a href="https://drive.google.com/file/d/1nLPU2Mtel1atvGQtK8cH0VR7EOFdJNFI/view?usp=drive_link"target="_blank">3.Write a C++ program to create a class called Shape with a method calledgetArea(). Create a derived class called Rectangle that overrides the getArea() method tocalculate the area of a rectangle. </a></li>
+                <li><a href="https://drive.google.com/file/d/1-xsgeK7JeDRfHG4uM2d29U48PsLXRTLK/view?usp=drive_link"target="_blank">4.Write a C++ program to create a class called Employee with methods calledwork() and getSalary(). Create a derived class called HR Manager that overrides the work() method and adds a new method called add Employee(). </a></li>
+                <li><a href="https://drive.google.com/file/d/1gn0l30hfFHKlTcm4njvJwDw86Mvc46TN/view?usp=drive_link"target="_blank">5.Write a C++ program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a derived class called Savings Account that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred. </a></li>
+                <li><a href="https://drive.google.com/file/d/11eKPad-fTjM2OIeL9I5yVXRe5zKThugh/view?usp=drive_link"target="_blank">6.Write a C++ program to create a class called Animal with a method named move(). Create a derived class called Cheetah that overrides the move() method to run. </a></li>
+                <li><a href="https://drive.google.com/file/d/11qWFWFTYjWqjSCNC9x4ukFboeDwD7m4v/view?usp=drive_link"target="_blank">7.Write a C++ program to create a class known as Person with methods called getFirstName() and getLastName(). Create a derived class called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title </a></li>
+                <li><a href="https://drive.google.com/file/d/1VMsPKLvJFvOltSl7jAa1JtDawctx-Mk4/view?usp=drive_link"target="_blank">8.Write a C++ program to create a class called Shape with methods called getPerimeter() and getArea(). Create a derived class called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle. </a></li>
+                <li><a href="https://drive.google.com/file/d/18sPB9qXBpNwvHuERdhavFUCoGmHEvtL4/view?usp=drive_link"target="_blank">9.Write a C++ program to create a vehicle class hierarchy. The base class should be Vehicle, with derived classes Truck, Car and Motorcycle. Each derived class should have properties such as make, model, year, and fuel type. Implement methods for calculating fuel efficiency, distance traveled, and maximum speed. </a></li> 
+                <li><a href="https://drive.google.com/file/d/1s018t-4GcC5t0cMvCYeXhPXjUZWIWbmf/view?usp=drive_link"target="_blank">10.Write a C++ program that creates a class hierarchy for employees of acompany. The base class should be Employee, with derived classes Manager, Developer, and Programmer. Each derived class should have properties such as name, address, salary, and job title. Implement methods for calculating bonuses, generating performance reports, and managing projects. </a></li>
+            </ol>
+        </div>
+
+
+
+
+        <div class="topic">
+            <h2>DATA CONVERSION </h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1XwPSkOFEKYWnhz88W7xAvRQrrnJq9GCi/view?usp=drive_link" target="_blank">1. C++ program to convert String to int</a></li>
+                <li><a href="https://drive.google.com/file/d/15620ptSMDiu2t7gaEdcIZAU75-fjPUS0/view?usp=drive_link" target="_blank">2. C++ programto convert int to String</a></li>
+                <li><a href="https://drive.google.com/file/d/1OOmOju3asBChWslUcRgMr9ZXjR6ixULw/view?usp=drive_link" target="_blank">3. C++ program to convert String to long</a></li>
+                <li><a href="https://drive.google.com/file/d/1JHH1SheHuAnZ7v9ifnpSwaoI_E4L2Q0F/view?usp=drive_link" target="_blank">4. C++ program to convert long to String</a></li>
+                <li><a href="https://drive.google.com/file/d/1NLC6Qb673w8OpyYeEUfpawdSD-92U2RT/view?usp=drive_link" target="_blank">5. C++ program to convert String to float</a></li>
+                <li><a href="https://drive.google.com/file/d/1TY8Zkl3sY-sTEn7p3kofYWm5havKX1jc/view?usp=drive_link" target="_blank">6. C++ program to convert float to String</a></li>
+                <li><a href="https://drive.google.com/file/d/1uqU9iuYtHRXnwvC1LVPQf9Ug0BWBEcMu/view?usp=drive_link" target="_blank">7. C++ program to convert String to double</a></li>
+                <li><a href="https://drive.google.com/file/d/1zsyoOZBXnNAvFfkA4Oe2sEYulgOsKfGq/view?usp=drive_link" target="_blank">8. C++ program to convert double to String</a></li>
+                <li><a href="https://drive.google.com/file/d/1UIygn3idiTWPbW75dPk6sVrw7s2wWUJQ/view?usp=drive_link" target="_blank">9. C++ program to convert char to int </a></li>
+                <li><a href="https://drive.google.com/file/d/1wARhhwiA-TtPMlQao0C0Xtotfy-_89W5/view?usp=drive_link" target="_blank">10. C++ program to convert int to char </a></li>
+                <li><a href="https://drive.google.com/file/d/1fVuM7YivWcffIIArmbiO7kOaFXU9J8bi/view?usp=drive_link" target="_blank">11. C++ program to convert Binary to Decimal</a></li>
+                <li><a href="https://drive.google.com/file/d/17sBJiCkSvPBWYThJJhj0cwdzWuOPeMJ6/view?usp=drive_link" target="_blank">12. C++ program to convert Decimal to Binary</a></li>
+                <li><a href="https://drive.google.com/file/d/1h2KTDEeessLUgnmouId-sByVzWE69Jjy/view?usp=drive_link" target="_blank">13. C++ program to convert Hex to Decimal</a></li>
+                <li><a href="https://drive.google.com/file/d/16DFhF42VdKQBj7SMGZwWoVLhAIO5uNa0/view?usp=drive_link" target="_blank">14. C++ program to convert Decimal to Hex</a></li>
+                <li><a href="https://drive.google.com/file/d/1g_-AvjhP-CjNLPBhaGEfmY9QyXbjPNpx/view?usp=drive_link" target="_blank">15. C++ program to convert Octal to Decimal</a></li>
+                <li><a href="https://drive.google.com/file/d/1nG2gSjK-7pqAnavlhT7LqorcTHLfj6Sb/view?usp=drive_link" target="_blank">16. C++ program to convert Decimal to Octal</a></li>
+        </ol>
+        </div>
+
+
+        <div class="topic">
+            <h2>FUNCTIONS</h2>
+            <ol>
+                 <li><a href="https://drive.google.com/file/d/1KWZcGek9g8lq02dUqswDtWvKQlEfo_94/view?usp=drive_link"target="_blank">1.Write a C++ method to find the smallest number among three numbers.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1HqGCsSspDIuHqh7Gix5HYBwE-a0Ku0et/view?usp=drive_link"target="_blank">2.Write a C++ method to compute the average of three numbers.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1bveCiwV8Vm6O3hxYT655tcVemw8_1yyx/view?usp=drive_link"target="_blank">3.Write a C++ method to display the middle character of a string.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1Fb9k_XXEC2BUgiMmP9nI4wBrsoX0DxbM/view?usp=drive_link"target="_blank">4.Write a C++ method to find all twin prime numbers less than 100.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1rGJZgfEjE_g1JiiMTRLH-frww_fzK-1B/view?usp=drive_link"target="_blank">5.Write a C++ method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1jWYN5Yw3Uvu1Et7OUoIB3-kjBq19ohYQ/view?usp=drive_link"target="_blank">6.Write a C++ method that accepts three integers and checks whether they are consecutive or not. Returns true or false.</a></li>
+                <li><a href= "https://drive.google.com/file/d/1Ktqnm-og6ycumHe_yrvAYMttFyWvjFjE/view?usp=drive_link"target="_blank">7.Write a C++ method that checks whether all the characters in a given string are vowels (a,e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false.</a></li>
+            </ol>
+        </div>
+
+
+
+        <div class="topic">
+            <h2>MULTI-DIMENSIONAL ARRAY</h2>
+            <ol>
+               <li><a href="https://drive.google.com/file/d/1rJVn4UXd3AYTbr-FQCJYHijVWPCiMbxq/view?usp=drive_link" target="_blank">1.Enter the Matrix of rows and columns entered by the user and print in matrix format</a></li>
+                <li><a href="https://drive.google.com/file/d/1FDRVd14STjOVUxMvlvlKpRfnO2Kmpmcw/view?usp=drive_link" target="_blank">2.Program to Add Two Matrices</a></li>
+                <li><a href="https://drive.google.com/file/d/1BeWWJUgQtfqwnRoQjroOwONt3zLMyBdl/view?usp=drive_link" target="_blank">3.Program to Multiply Two Matrices</a></li>
+                <li><a href="https://drive.google.com/file/d/1j-AtxKB_tWT3F2sRZC4v1h0z4hVFVGMV/view?usp=drive_link" target="_blank">4.Program to subtract the two matrices</a></li>
+                <li><a href="https://drive.google.com/file/d/1kkj1mCxD7_ouhGbA8c_-S5vulHvZN8lV/view?usp=drive_link" target="_blank">5.Program to determine whether two matrices are equal</a></li>
+                <li><a href="https://drive.google.com/file/d/1pilWF3H1SfRu1QtO0gYvOZG2D3lsX1_3/view?usp=drive_link" target="_blank">6.Program to display the lower triangular matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/1lKuGyREGGqYiqsWUbERsxTx_xkEql7lh/view?usp=drive_link" target="_blank">7.Program to display the upper triangular matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/1RnHzmmcCLXbjMx5r6oHyt-VFkH-4Ier3/view?usp=drive_link" target="_blank">8.Program to find the frequency of odd & even numbers in the given matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/1BQrwFLbJ-OS45Cfd1ztnsWIXpfkDzaK-/view?usp=drive_link" target="_blank">9.Program to find the sum of each row and each column of a matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/15WoEckVOkFrDvW6PX9HM7WIFCIKcOb3U/view?usp=drive_link" target="_blank">10.Program to determine whether a given matrix is an identity matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/1NEbtTLVbRBESS9HF-iC0DJFvjWCFVFUO/view?usp=drive_link" target="_blank">11.Program to Transpose matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/1OJhfX1XhwXirFymArOqUHhCCnfplZEcq/view?usp=drive_link" target="_blank">12.Program to determine whether a given matrix is a sparse matrix</a></li>
+           
+            </ol>
+        </div>
+
+
+
+
+        <div class="topic">
+            <h2>SINGLE DIMENSIONAL ARRAY</h2>
+            <ol>
+                 <li><a href="https://drive.google.com/file/d/1pi_I_49eUX1wGvt63KrrlPheqEbvu2-4/view?usp=drive_link" target="_blank">1. Program to copy all elements of one array into another array</a></li>
+                <li><a href="https://drive.google.com/file/d/1gd5mFs-q83yOF6FAj7hsWpGpjVmcv6sw/view?usp=drive_link" target="_blank">2. Program to find the frequency of each element in the array</a></li>
+                <li><a href="https://drive.google.com/file/d/1jStaFf-zt4gxKK8iePT4xdxtLFAbboN1/view?usp=drive_link" target="_blank">3. Program to left rotate the elements of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1BEGWFnaXUDI2NEUxDc-DSXYcF7esgvSm/view?usp=drive_link" target="_blank">4. Program to print the duplicate elements of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/12Rd0CQuW6jL1ZsZNnS3OnHKsIxsqknoC/view?usp=drive_link" target="_blank">5. Program to print the elements of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/17LQXbUjhTv0nE50J-etzsqRuf61HGK84/view?usp=drive_link" target="_blank">6. Program to print the elements of an array in reverse order</a></li>
+                <li><a href="https://drive.google.com/file/d/12eQf50pk6W-sAA5JI-A5_rWrbRsd4UBK/view?usp=drive_link" target="_blank">7. Program to print the elements of an array present on even position</a></li>
+                <li><a href="https://drive.google.com/file/d/1OvfCqVXAnisJHsAiGfcGS54yMJtcaB7Y/view?usp=drive_link" target="_blank">8. Program to print the elements of an array present on odd position</a></li>
+                <li><a href="https://drive.google.com/file/d/1m2Gg_Fnj5Ozah-gPvfDDBWkTtVswTtJC/view?usp=drive_link" target="_blank">9. Program to print the largest element in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/16hyQbRPvAuWzNt59LrAlf4HePHIDvSu1/view?usp=drive_link" target="_blank">10. Program to print the smallest element in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1ARpiexDRWXtP473afbtetuOYNwCgLho1/view?usp=drive_link" target="_blank">11. Program to print the number of elements present in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/16ZJmzrmTLiGxUXSDB88GZ8yGN1AZrcit/view?usp=drive_link" target="_blank">12. Program to print the sum of all the items of the array</a></li>
+                <li><a href="https://drive.google.com/file/d/17fc-2gn7Cw_O0ekFo2vVrAZI4H4IED82/view?usp=drive_link" target="_blank">13. Program to right rotate the elements of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1khck82bNKtYuv4ioatwrEREEPrDuPa_t/view?usp=drive_link" target="_blank">14. Program to sort the elements of an array in ascending order</a></li>
+                <li><a href="https://drive.google.com/file/d/1mn3s2tZPburVvxG9HJmB8qiixlz9qhJC/view?usp=drive_link" target="_blank">15. Program to sort the elements of an array in descending order</a></li>
+                <li><a href="https://drive.google.com/file/d/14K-Qcxp3LYX88zenlM03m0nfbrItbF_F/view?usp=drive_link" target="_blank">16. Program to Find 3rd Largest Number in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/11AizmIN7iww9phTSuxbKUmCy6NCEcPWX/view?usp=drive_link" target="_blank">17. Program to Find 2nd Largest Number in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1VafG0Dn1uAYuMVOwJigrNFjNXCYrYTkX/view?usp=drive_link" target="_blank">18. Program to Find Largest Number in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1gPiDi2WwlNmsWapRg1nylob0EUJAx99_/view?usp=drive_link" target="_blank">19. Program to Find 2nd Smallest Number in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1mIWGP7aZ5VwlKu_9t11p9DQsUV5y3IVX/view?usp=drive_link" target="_blank">20. Program to Find Smallest Number in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1MTKUolpdyxmPFsBjmTXZuYhIVoNzwNYq/view?usp=drive_link" target="_blank">21. Program to Remove Duplicate Element in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1YPZ2b-UM-DryDQdp4Kty-tHC1CuSVmHZ/view?usp=drive_link" target="_blank">22. Program to Print Odd and Even Numbers from an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1hVOrlnlibXjdGTOpc5GNwmx0Y0vNefBO/view?usp=drive_link" target="_blank">23. Write a C++ program to swap the first and last elements of an array and create a new array</a></li>
+                <li><a href="https://drive.google.com/file/d/1baQwMjgLc_yiHJtlrmL2XolTv2nIKl-_/view?usp=drive_link" target="_blank">24. Write a C++ program to count the number of even and odd elements in a given array</a></li>
+                <li><a href="https://drive.google.com/file/d/1SVYtbJ-3-v7lYe7YN2jhYxsMGNK_wP1I/view?usp=drive_link" target="_blank">25. Write a C++ program to sum values of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1a0fIeECLaGZ3I6CpI0Zkwc6Ragv27VRc/view?usp=drive_link" target="_blank">26. Write a C++ program to find the index of an array element</a></li>
+                <li><a href="https://drive.google.com/file/d/1_v1viBM-HSxcxnGqeUL8a9UsXg_c8DrB/view?usp=drive_link" target="_blank">27. Write a C++ program to calculate the average value of array elements</a></li>
+                <li><a href="https://drive.google.com/file/d/1QbUiTk7mIKc-L16ikp6-564LGem0aCcm/view?usp=drive_link" target="_blank">28. Write a C++ program to test if an array contains a specific value</a></li>
+                <li><a href="https://drive.google.com/file/d/1u06J5O4JSmE47A-ArW6tev9UqvQs_Xr5/view?usp=drive_link" target="_blank">29. Write a C++ program to find maximum and minimum value of an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1Lpws3BYOlVUkIvkExdsiJbD6Oh7wM0vp/view?usp=drive_link" target="_blank">30. Write a C++ program to insert an element (specific position) into an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1kc92PNklZltcmfdMqthJhLOCP3BwgqYa/view?usp=drive_link" target="_blank">31. Write a C++ program to reverse an array of integer values</a></li>
+                <li><a href="https://drive.google.com/file/d/1hzFXPunQhUygjF4jJ6FMS98vWmA6ukT1/view?usp=drive_link" target="_blank">32. Write a C++ program to find the common elements between two arrays</a></li>
+                <li><a href="https://drive.google.com/file/d/1J_qsmENeNeltKWoU2SLcGqtKZ0ongfiS/view?usp=drive_link" target="_blank">33. Write a C++ program to find the duplicate values of an array of integer values</a></li>
+                <li><a href="https://drive.google.com/file/d/1UEGmxkxnvFaVEGYWioSMNLR6GVO8rd5V/view?usp=drive_link" target="_blank">34. Write a C++ program to find second largest number from the array</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ju2DGyoAck0hI8WXt6Os36i8-SS5-F6b/view?usp=drive_link" target="_blank">35. Write a C++ program to find second lowest number from the array</a></li>
+                <li><a href="https://drive.google.com/file/d/1AUib9240-xSF451R-nCAuvEo-FLaz0Q1/view?usp=drive_link" target="_blank">36. Write a C++ program to find the number of even and odd integers in a given array of integers</a></li>
+                <li><a href="https://drive.google.com/file/d/1BiWFar-kqsZ7P8hxnLrWOJMpFtr6X84R/view?usp=drive_link" target="_blank">37. Write a C++ program to get the difference between the largest and smallest values in an array of integers</a></li>
+                <li><a href="https://drive.google.com/file/d/1b8DGARfi5iQ4aVNa-KYoA3QTgP63WRgm/view?usp=drive_link" target="_blank">38. Write a C++ program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s</a></li>
+                <li><a href="https://drive.google.com/file/d/1UTzxbExIlMFlH3GnLjvcPMuvaiBO6-Y9/view?usp=drive_link" target="_blank">39. Write a C++ program to cyclically rotate a given array clockwise by one</a></li>
+                <li><a href="https://drive.google.com/file/d/1iGQq-dy7mAZ8TXw9HtAaPAmaPPjHCJht/view?usp=drive_link" target="_blank">40. Write a C++ program to print all unique element in an array</a></li>
+                <li><a href="https://drive.google.com/file/d/1MODHRBP9MgvAPHva1SOskipzTtja4EY4/view?usp=drive_link" target="_blank">41. Write a C++ Program to Sort the Array in an Ascending Order</a></li>
+                <li><a href="https://drive.google.com/file/d/1EXkJoBi1jTB-OxjumWulvYx-Ut2bGYGr/view?usp=drive_link" target="_blank">42. Write a C++ Program to Sort the Array in an Descending Order</a></li>
+                <li><a href="https://drive.google.com/file/d/12MELDJs8-q64K9s3y9Q-lkAfHnFLMBzl/view?usp=drive_link" target="_blank">43. Write a C++ Program to Search Key Elements in an Array</a></li>
+            </ol>
+        </div>
+
+        <div class="topic">
+            <h2>STRINGS</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1lc2jUWM5HdF2qkAuV9Pdf6f1ZCnT7ciu/view?usp=drive_link" target="_blank">1. Program to Check Anagram</a></li>
+                <li><a href="https://drive.google.com/file/d/1ldxpa4GWnNpcw2OdwmNesnIwM9m9gurB/view?usp=drive_link" target="_blank">2. Program to Swapping Pair of Characters</a></li>
+                <li><a href="https://drive.google.com/file/d/1tQ87rLseRC150ZgP5EpOp2Fa_vaLwg33/view?usp=drive_link" target="_blank">3. Program to Check if a String contains only digits?</a></li>
+                <li><a href="https://drive.google.com/file/d/1lZ7i30TghFQ-wpuvprfIr_Nzsbwl6BQ2/view?usp=drive_link" target="_blank">4. Program to perform Deep Copy for String?</a></li>
+                <li><a href="https://drive.google.com/file/d/1DM4qOxqT3ptquTCzrgTlRh3hjSncQHO6/view?usp=drive_link" target="_blank">5. Program to remove all occurrences of a given character from input String?</a></li>
+                <li><a href="https://drive.google.com/file/d/1Eot5CnmdXzh-6uav3D2MQW0PA8QZ5GPc/view?usp=drive_link" target="_blank">6. Program to Add Characters to a String</a></li>
+                <li><a href="https://drive.google.com/file/d/1kDwRXc7v2poUpNhEw0jNzC4DKqVgQcV5/view?usp=drive_link" target="_blank">7. Program to check whether a string is a Palindrome</a></li>
+                <li><a href="https://drive.google.com/file/d/1Qtn0TttI5HVHc4vBLe_-dvY2_gFCbTH4/view?usp=drive_link" target="_blank">8. Program to Convert Enum to String</a></li>
+                <li><a href="https://drive.google.com/file/d/1_7TdKCpfqJYpnniXUoyCTKfiiWfBfRlv/view?usp=drive_link" target="_blank">9. Program to count number of words in a String?</a></li>
+                <li><a href="https://drive.google.com/file/d/11ORVIWp2sseF8GsPtbkYbNZ96o511tXO/view?usp=drive_link" target="_blank">10. Program to count the total number of characters in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1nJmlqVys7w9quKUovlVp4R_jIIfNSiFk/view?usp=drive_link" target="_blank">11. Program to count the total number of punctuation characters exists in a String</a></li>
+                <li><a href="https://drive.google.com/file/d/15oHGs8ztf0AR3pmNSRz75w3_-ZDXWD-B/view?usp=drive_link" target="_blank">12. Program to count the total number of vowels and consonants in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1hqYc_cVQRnBSXMIBtwdoEhft7IAwM81E/view?usp=drive_link" target="_blank">13. Program to determine whether a given string is palindrome</a></li>
+                <li><a href="https://drive.google.com/file/d/15cGyvTQgnglKgCmw8c-tpZoOb5gxL8LG/view?usp=drive_link" target="_blank">14. Program to determine whether one string is a rotation of another</a></li>
+                <li><a href="https://drive.google.com/file/d/1Zm2vS1jWeN1anmiNdQjd8MgQpHlZXHFO/view?usp=drive_link" target="_blank">15. Program to divide a string in 'N' equal parts.</a></li>
+                <li><a href="https://drive.google.com/file/d/1jNwTUxQPYtINK365BzrXRUKasutIz4w5/view?usp=drive_link" target="_blank">16. Program to find all subsets of a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1lE5mGywkVLaujEeC_aFlsltdXODr2Ga3/view?usp=drive_link" target="_blank">17. Program to find all the permutations of a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1NxOgTY2Wi33JLA1tToViEhTHl-hfDvpI/view?usp=drive_link" target="_blank">18. Program to find maximum and minimum occurring character in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/106vD78WufuA9quhNUfN0Luu7ppJJK6HA/view?usp=drive_link" target="_blank">19. Program to find Reverse of the string</a></li>
+                <li><a href="https://drive.google.com/file/d/15GbFzeloYOaCBugPwTOId6LI2faNci6q/view?usp=drive_link" target="_blank">20. Program to find the duplicate characters in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ua9X8Q09Qnmfe4oe23JPKro6a8fGIBOZ/view?usp=drive_link" target="_blank">21. Program to find the duplicate words in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ahm9ERgsbj8cOUQ_st7mgLLDyHxAZ6lo/view?usp=drive_link" target="_blank">22. Program to find the frequency of characters</a></li>
+                <li><a href="https://drive.google.com/file/d/1bsuGGo0bH0Qbk30LcQ5VoVy2lbx-Ao9f/view?usp=drive_link" target="_blank">23. Program to find the largest and smallest word in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1cUIRKEHjtfMkKZ5xxA1k26uE_yGdAnBI/view?usp=drive_link" target="_blank">24. Program to find the longest repeating sequence in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/10npH9J7f5dP6JTc1MDxgcr-fdt9OJ0xG/view?usp=drive_link" target="_blank">25. Program to find the most repeated word in a text file</a></li>
+                <li><a href="https://drive.google.com/file/d/1DxGBY4YC9vlfqyls_iJBkxViiITiK-B8/view?usp=drive_link" target="_blank">26. Program to find the number of the words in the given text file</a></li>
+                <li><a href="https://drive.google.com/file/d/1Rb1d14UJEOglV6NQi9vdhwt7fBLTzocz/view?usp=drive_link" target="_blank">27. Program to Get a Character From the Given String</a></li>
+                <li><a href="https://drive.google.com/file/d/1-4PYJkfvrGsk05Qx4PyNCQ1RshzEhqLq/view?usp=drive_link" target="_blank">28. Program to Insert a string into another string</a></li>
+                <li><a href="https://drive.google.com/file/d/1AoU0CYxloFB4PyEBbzGnTYvzyJozF1-W/view?usp=drive_link" target="_blank">29. Program to Print a New Line in String (Each word in newline)</a></li>
+                <li><a href="https://drive.google.com/file/d/1u8t1srve9hVmvi9ZBy2PTPwT3RomJw55/view?usp=drive_link" target="_blank">30. Program to Print even length words</a></li>
+                <li><a href="https://drive.google.com/file/d/18-RpTL_S6VaBgFp_tD2aaCoy5JR-vnCb/view?usp=drive_link" target="_blank">31. Program to print smallest and biggest possible palindrome word in a given string</a></li>
+                <li><a href="https://drive.google.com/file/d/1oXaYmGRdZ7uFazmBC3HKsY8X8_QSsGA5/view?usp=drive_link" target="_blank">32. Program to remove all the white spaces from a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1LTw6Wj6ws6JgmRdU2NhK9ky8FdNVVLKD/view?usp=drive_link" target="_blank">33. Program to replace lower-case characters with upper-case and vice-versa</a></li>
+                <li><a href="https://drive.google.com/file/d/1cx0hJldeA02jLG4OSBzT5VBMk92NuBSc/view?usp=drive_link" target="_blank">34. Program to replace the spaces of a string with a specific character</a></li>
+                <li><a href="https://drive.google.com/file/d/1sV1fIw_6LCKND8WHI5c_V3cW1rnIFvms/view?usp=drive_link" target="_blank">35. Program to separate the Individual Characters from a String</a></li>
+                <li><a href="https://drive.google.com/file/d/1aKL1lUahm0_q0FTq4yX9NlJPjvKUBvT1/view?usp=drive_link" target="_blank">36. Program to Splitting into a number of sub-strings</a></li>
+                <li><a href="https://drive.google.com/file/d/1NdX-QH3cOEEhUUrMLLsGhlSfaGu7pOct/view?usp=drive_link" target="_blank">37. Program to swap two string variables without using third or temp variable.</a></li>
+                <li><a href="https://drive.google.com/file/d/1YKBSNIsar4sjaQ0FZToSiVGhrqZDvUCz/view?usp=drive_link" target="_blank">38. Read two String user input and check if first contains second?</a></li>
+                <li><a href="https://drive.google.com/file/d/1H74FOY7ZxIo9w7C_RsJ_HnOypzhN4k27/view?usp=drive_link" target="_blank">39. Reverse String Word by Word</a></li>
+                <li><a href="https://drive.google.com/file/d/1qoVSpf503RNI2zCBery1RKx2jA0cF2qS/view?usp=drive_link" target="_blank">40. Write a program to check if two Strings are created with same characters?</a></li>
+                <li><a href="https://drive.google.com/file/d/1UtOwmFCMuyG7cp_Q1ioByHdOK9XAbfa9/view?usp=drive_link" target="_blank">41. Write a program to find out first non repeated character from input String?</a></li>
+                <li><a href="https://drive.google.com/file/d/1xY52ssAU6wL1Qmx075FGEAheZ-3mw5N9/view?usp=drive_link" target="_blank">42. Write a C++ method to count all words in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1b1fnmit3UqxWWuAkQELhJeVt_QuRqGq0/view?usp=drive_link" target="_blank">43. Write a C++ method to count all vowels in a string</a></li>
+                <li><a href="https://drive.google.com/file/d/1wPwkwWiTd_Qi440hZH2wAILVhDq2pbuD/view?usp=drive_link" target="_blank">44. Write a C++ Program to Sort Names in an Alphabetical Order</a></li>
+                <li><a href="https://drive.google.com/file/d/1f54RpMgEr2hH0GORUpVHAeNoKJTs9CBP/view?usp=drive_link" target="_blank">45. Write a C++ method to count all the words in a string.</a></li>
+                <li><a href="https://drive.google.com/file/d/1JCpqVt-N-zfW4hsiuy9Oxe0jMUhoX0KM/view?usp=drive_link" target="_blank">46. Write a C++ method to compute the future investment value at a given interest rate for a specified number of years.</a></li>
+                <li><a href="https://drive.google.com/file/d/1QCSZJxpKs2AK6zOetWQM5dZWE93IAGU0/view?usp=drive_link" target="_blank">47. Write a C++ method to print characters between two characters (i.e. A to P).</a></li>
+                <li><a href="https://drive.google.com/file/d/1bGME8zLpYwdj794JumOFr78qZBGJ5uB9/view?usp=drive_link" target="_blank">48. Write a C++ method to check whether a string is a valid password.</a></li>
+                <li><a href="https://drive.google.com/file/d/1EM9tKJgegpXNqRse7hZJ8OONkYo5YWzV/view?usp=drive_link" target="_blank">49. Write a C++ method to display the current date and time.</a></li>
+                <li><a href="https://drive.google.com/file/d/1H-qmTqW74i90PZQQGb3YQ0xMzXyoZWEX/view?usp=drive_link" target="_blank">50. Write a C++ method that accepts three integers and returns true if one is the middle point between the other two integers, otherwise false</a></li>
+               
+            </ol>
+        </div>
+
+        <div class="topic">
+            <h2>FILE HANDLING</h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1yVY3yaIpnY90K-jXh44bPSKFfnpzZpCh/view?usp=drive_link" target="_blank">1. Write a C++ program to create a new text file and write some text into it.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Lo88vVGgMIREISkprR5Bo_OkAszwgZ5s/view?usp=drive_link" target="_blank">2. Write a C++ program to open an existing text file and display its contents on the console.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Vuz3a8Dgvyf_7Ks8OGwXtsTRx12xshM3/view?usp=drive_link" target="_blank">3. Write a C++ program to count the number of lines in a text file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1ayhQEfeH709mK7ComZ2Cxg0fq04l54mm/view?usp=drive_link" target="_blank">4. Write a C++ program to count the number of words in a text file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1oC9IvzMSsTycu6yyyfdTBYxaL3Zny4EP/view?usp=drive_link" target="_blank">5. Write a C++ program to copy the contents of one text file to another.</a></li>
+                <li><a href="https://drive.google.com/file/d/1oNoWfviUGCSKTIDpyfST2TkAuJbarCpV/view?usp=drive_link" target="_blank">6. Write a C++ program to find and replace a specific word in a text file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1f2VpndLOmrUVSFCDOfXgm-5EYGvi_rLN/view?usp=drive_link" target="_blank">7. Write a C++ program to append new data to an existing text file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1yX1X4VznQUet9Yr3BFib6Va_V_9A0mZO/view?usp=drive_link" target="_blank">8. Write a C++ program to sort the lines of a text file in alphabetical order.</a></li>
+                <li><a href="https://drive.google.com/file/d/13lqkT86LEJ4DxLd_Bx17V-UuYm0fUI3c/view?usp=drive_link" target="_blank">9. Write a C++ program to merge multiple text files into a single file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1eVvGG8BWF4ewtUi02JYKsMeK7A_c96aK/view?usp=drive_link" target="_blank">10. Write a C++ program to split a large text file into smaller files of equal size.</a></li>
+                <li><a href="https://drive.google.com/file/d/1LctShKTK7wTw80HC6f2kWV85S12jRJoY/view?usp=drive_link" target="_blank">11. Write a C++ program to search for a specific string in a text file and display its line number(s).</a></li>
+                <li><a href="https://drive.google.com/file/d/18yesqbQrlK-naVeNoFuSHpa9OrkdmzfQ/view?usp=drive_link" target="_blank">12. Write a C++ program to encrypt the contents of a text file using a simple encryption algorithm.</a></li>
+                <li><a href="https://drive.google.com/file/d/1q724hHtz5WlywCRxIhPH62XQktJ16mQt/view?usp=drive_link" target="_blank">13. Write a C++ program to decrypt the contents of a text file encrypted using the above algorithm.</a></li>
+                <li><a href="https://drive.google.com/file/d/19xtE7X3XhtJ0OUXWA-w_1qABIZ_88PjP/view?usp=drive_link" target="_blank">14. Write a C++ program to read a CSV file and display its contents in tabular form.</a></li>
+                <li><a href="https://drive.google.com/file/d/1v9B1l7pCapMY7ERdKJ9gqPoL5kLPmpZX/view?usp=drive_link" target="_blank">15. Write a C++ program to calculate the average of numbers stored in a file.</a></li>
+                <li><a href="https://drive.google.com/file/d/1DZGFfbWbOOofAPxi6DKf6ALGDe9Mm0Gf/view?usp=drive_link" target="_blank">16. Write a C++ program to store the information of 10 Students having rollno,name,marks,mobileno properties, get() and set() member functions as binary file with following options 1. Insert Record 2. Delete Record 3. Update Record (based on rollno) 4. Search Record (based on rollno) 5. Clone the file 6. Exit.</a></li>
+            </ol>
+        </div>
+
+        <div class="topic">
+            <h2>VIRTUAL FUNCTIONS </h2>
+            <ol>
+                <li><a href="https://drive.google.com/file/d/1G__k0xx0pcknzJpWz6kFUOm-xQE_51bS/view?usp=drive_link" target="_blank">1. Write a C++ program to create an abstract class Animal with an abstract method called sound(). Create derived classes Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.</a></li>
+                <li><a href="https://drive.google.com/file/d/1q1DFLve_a-waxMQS7G7DxCbdInBoXbz1/view?usp=drive_link" target="_blank">2. Write a C++ program to create an abstract class Animal with an abstract method called sound(). Create derived classes Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.</a></li>
+                <li><a href="https://drive.google.com/file/d/12LijHcmueXn6k_X4PlMcv6hze66766lV/view?usp=drive_link" target="_blank">3. Write a C++ program to create an abstract class Shape with abstract methods calculateArea() and calculatePerimeter(). Create derived classes Circle and Triangle that extend the Shape class and implement the respective methods to calculate the area and perimeter of each shape.</a></li>
+                <li><a href="https://drive.google.com/file/d/1vnE-U9Uc0_de269aDXoVarnICIT3an4G/view?usp=drive_link" target="_blank">4. Write a C++ program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). Create derived classes: SavingsAccount and CurrentAccount that extend the BankAccount class and implement the respective methods to handle deposits and withdrawals for each account type.</a></li>
+                <li><a href="https://drive.google.com/file/d/1A7WaCVBEUh3NBmh4ZcE_YgzyaoFa8HQA/view?usp=drive_link" target="_blank">5. Write a C++ program to create an abstract class Animal with abstract methods eat() and sleep(). Create derived classes Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.</a></li>
+                <li><a href="https://drive.google.com/file/d/1LCYLLM2QAGKvlkm373KmiQ_5HSSCC7VJ/view?usp=drive_link" target="_blank">6. Write a C++ program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create derived classes Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.</a></li>
+                <li><a href="https://drive.google.com/file/d/15DfnDgXvp7PK-eSIzg9jFQJDhRuAZyqI/view?usp=drive_link" target="_blank">7. Write a C++ program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create derived classes Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape</a></li>
+                <li><a href="https://drive.google.com/file/d/1W3HDT3UiO14uojqDBWz-6xVq3r0AJxle/view?usp=drive_link" target="_blank">8. Write a C++ program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). Create derived classes Car and Motorcycle that extend the Vehicle class and implement the respective methods to start and stop the engines for each vehicle type.</a></li>
+                <li><a href="https://drive.google.com/file/d/1y7J1qkI5OZdV-0mNm8CQmBcj93UxzJwR/view?usp=drive_link" target="_blank">9. Write a C++ program to create an abstract class Person with abstract methods eat() and exercise(). Create derived classes Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.</a></li>
+                <li><a href="https://drive.google.com/file/d/1ISTJQVmwmMUnQxAMKEHCNKhEjnrgUoJC/view?usp=drive_link" target="_blank">10. Write a C++ program to create an abstract class Instrument with abstract methods play() and tune(). Create derived classes for Glockenspiel and Violin that extend the Instrument class and implement the respective methods to play and tune each instrument.</a></li>
+                <li><a href="https://drive.google.com/file/d/1Huk2og16mQNCPR7tYmaDp5mu1dTA1psq/view?usp=drive_link" target="_blank">11. Write a C++ program to create an abstract class Shape2D with abstract methods draw() and resize(). Create derived classes Rectangle and Circle that extend the Shape2D class and implement the respective methods to draw and resize each shape.</a></li>
+                <li><a href="https://drive.google.com/file/d/14hGqfnqrCcTTowBOUQ-6ZRTu1KEusRq-/view?usp=drive_link" target="_blank">12. Write a C++ program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create derived classes Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape</a></li>
+                <li><a href="https://drive.google.com/file/d/183199obtijk_Wl7w7NBl68jKxSmN37EN/view?usp=drive_link" target="_blank">13. Write a C++ program to create an abstract class Bird with abstract methods fly() and makeSound(). Create derived classes Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.</a></li>
+
+            </ol>
+        </div>
+
+
+</div>
+
+</body>
+
+</html>
